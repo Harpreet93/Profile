@@ -1,0 +1,39 @@
+/* Custom CSS goes here */
+body {
+     /* background-image: url('../Assets/images/220px-16777216colors.png');  */
+     background-color: white;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+}
+#maindiv {
+    padding: 1em;
+    background-color: silver;
+    border-radius: 2em;
+}
+  #maindiv >ul{
+      color: green;
+    list-style-type: none;
+}
+#maindiv >ul >li {
+    display: inline;
+    font-size: 2em;
+    padding: 0.5em;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.active {
+    background-color: blue;
+}
+li:hover {
+   background-color: black;
+}
+#contactdiv {margin-left: 2em;}
+#contactdiv > h2 {
+    text-align: center ;
+}
+.algin-center {
+    text-align: center;
+}
